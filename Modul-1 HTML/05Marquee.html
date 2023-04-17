@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, intial-scale=1.0">
+        <title>First HTML</title>
+    </head>
+    <body>
+        <p>it is used to insert scrolling area of text</p>
+        <p>it facilitates user to set the behavior of the marquee to one of the three different types:</p>
+        <p>1. scroll</p>
+        <p>2. slide</p>
+        <p>3. alternate</p>
+        <table class="std_table">
+        <thead>
+        <tr>
+          <th>Attribute</th>
+          <th>Description</th>
+          <th>HTML Compatibility</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>behavior</td>
+          <td>The behavior of how the text scrolls. It can be one of the following values: alternate, scroll, slide</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        <tr>
+          <td>bgcolor</td>
+          <td>Background color</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        <tr>
+          <td>direction</td>
+          <td>Direction that the text scrolls. It can be one of the following values: left, right, up, down. The default value is left if the direction attribute is not specified.</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        <tr>
+          <td>height</td>
+          <td>Height of the marquee (expressed in either pixels or percent)</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        <tr>
+          <td>hspace</td>
+          <td>White space to insert to the left and right of the scrolling text (expressed in pixels)</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        <tr>
+          <td>loop</td>
+          <td>The number of times that the text will scroll. The default value is -1 which means that the marquee will loop continuously.</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        <tr>
+          <td>scrollamount</td>
+          <td>The amount of scrolling (in pixels) for each interval. The default value is 6 if the scrollamount is not specified</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        <tr>
+          <td>scrolldelay</td>
+          <td>The delay in milliseconds between scrolling. The default value is 85 if the scrolldelay is not specified. If a value lower than 60 is provided, the truespeed attribute must also be used</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        <tr>
+          <td>truespeed</td>
+          <td>Use this attribute to indicate that a scrolldelay value of 60 is allowed. Otherwise, the scrolldelay value will be rounded up to 60.</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        <tr>
+          <td>vspace</td>
+          <td>White space to insert above and below the scrolling text (express in pixels)</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        <tr>
+          <td>width</td>
+          <td>Width of the marquee (expressed in either pixels or percent)</td>
+          <td>HTML 4.01, Obsolete in HTML5</td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <!-- <marquee direction="down" height="100" width="200" bgcolor="white">Scrolling text</marquee> -->
+      <marquee direction="scroll" onMouseOver="this.stop()" onMouseOut="this.start()" height="100" width="200" bgcolor="white">Scrolling text</marquee>
+    </body>
